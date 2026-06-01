@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV – Chef d'Équipe Recyclage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button id="printBtn" onclick="window.print()">⬛ IMPRIMER / PDF</button>
+
+    <!-- HEADER -->
+    <header class="hdr">
+      <div class="hdr-inner">
+        <div>
+          <div class="hdr-name"><em>DELACOURT</em>ANTHONY</div>
+        </div>
+        <div class="hdr-right">
+          <div class="title-pill">CHEF D'ÉQUIPE</div>
+          <div class="title-sub">Pelleteur · Recyclage · Valorisation</div>
+          <div class="xp-row">
+            <!-- ✏️ Ajustez les années d'expérience -->
+            <span class="xp-n" id="cxp" data-count="8">0</span>
+            <span class="xp-lbl">ANS<br />D'EXPÉRIENCE</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="wrap">
+      <!-- ════ SIDEBAR ════ -->
+      <aside class="sb">
+        <!-- Photo -->
+        <div class="photo-wrap">
+          <!-- Pour ajouter une photo : remplacez le bloc .photo-ph par :
+           <img src="photo.jpg" alt="Photo de profil"> -->
+          <div class="photo-ph">
+            <img src="img/photo-profil.png" alt="Photo de profil" />
+          </div>
+        </div>
+
+        <!-- Contact -->
+        <div class="sb-s">
+          <div class="sb-title">Contact</div>
+          <ul class="clist">
+            <!-- ✏️ Remplissez vos coordonnées -->
+            <li class="citem">
+              <span class="cicon">📞</span><span>+33 6 48670949</span>
+            </li>
+            <li class="citem">
+              <span class="cicon">✉</span
+              ><a href="mailto:prenom.nom@email.fr">tonyrex@hotmailfr</a>
+            </li>
+            <li class="citem">
+              <span class="cicon">📍</span
+              ><span>155 chemin de choulans 69005 LYON</span>
+            </li>
+            <li class="citem">
+              <span class="cicon">🚗</span><span>Permis B — Véhiculé</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Compétences -->
+        <div class="sb-s">
+          <div class="sb-title">Compétences</div>
+          <!-- ✏️ Ajustez les pourcentages (data-width) -->
+          <div class="sk-item">
+            <div class="sk-hd">
+              <span class="sk-name">Conduite de pelle</span
+              ><span class="sk-pct">95%</span>
+            </div>
+            <div class="sk-track">
+              <div class="sk-bar" data-width="95"></div>
+            </div>
+          </div>
+          <div class="sk-item">
+            <div class="sk-hd">
+              <span class="sk-name">Tri & Valorisation</span
+              ><span class="sk-pct">90%</span>
+            </div>
+            <div class="sk-track">
+              <div class="sk-bar" data-width="90"></div>
+            </div>
+          </div>
+          <div class="sk-item">
+            <div class="sk-hd">
+              <span class="sk-name">Management équipe</span
+              ><span class="sk-pct">83%</span>
+            </div>
+            <div class="sk-track">
+              <div class="sk-bar" data-width="83"></div>
+            </div>
+          </div>
+          <div class="sk-item">
+            <div class="sk-hd">
+              <span class="sk-name">Sécurité HSE</span
+              ><span class="sk-pct">88%</span>
+            </div>
+            <div class="sk-track">
+              <div class="sk-bar" data-width="88"></div>
+            </div>
+          </div>
+          <div class="sk-item">
+            <div class="sk-hd">
+              <span class="sk-name">Maintenance N1</span
+              ><span class="sk-pct">74%</span>
+            </div>
+            <div class="sk-track">
+              <div class="sk-bar" data-width="74"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CACES / Habilitations -->
+        <div class="sb-s">
+          <div class="sb-title">Habilitations</div>
+          <!-- ✏️ Adaptez selon vos certifications réelles -->
+          <div class="caces-grid">
+            <div class="cb">
+              <div class="lbl">CACES</div>
+              <div class="code">R482 B1</div>
+              <div class="valid">Pelle hydraulique</div>
+            </div>
+            <div class="cb">
+              <div class="lbl">CACES</div>
+              <div class="code">R489</div>
+              <div class="valid">Chariot élévateur</div>
+            </div>
+            <div class="cb">
+              <div class="lbl">HABILITATION</div>
+              <div class="code">H0 / B0</div>
+              <div class="valid">Électrique</div>
+            </div>
+            <div class="cb">
+              <div class="lbl">FORMATION</div>
+              <div class="code">SST</div>
+              <div class="valid">Secouriste travail</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Langues -->
+        <div class="sb-s">
+          <div class="sb-title">Langues</div>
+          <div class="lang-list">
+            <div class="lang-item">
+              <span class="lang-name">Français</span>
+              <div class="dots">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+              </div>
+            </div>
+            <div class="lang-item">
+              <span class="lang-name">Anglais</span>
+              <div class="dots">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot e"></div>
+                <div class="dot e"></div>
+                <div class="dot e"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- ════ MAIN ════ -->
+      <main class="main">
+        <!-- Stats -->
+        <div class="stats">
+          <!-- ✏️ Mettez à jour vos chiffres clés -->
+          <div class="stat">
+            <div class="stat-n" data-count="8">0</div>
+            <div class="stat-l">Ans d'expérience</div>
+          </div>
+          <div class="stat">
+            <div class="stat-n" data-count="2">0</div>
+            <div class="stat-l">Centres de tri</div>
+          </div>
+          <div class="stat">
+            <div class="stat-n" data-count="5">0</div>
+            <div class="stat-l">Opérateurs encadrés</div>
+          </div>
+          <div class="stat">
+            <div class="stat-n" data-count="4">0</div>
+            <div class="stat-l">Certifications</div>
+          </div>
+        </div>
+
+        <!-- Profil -->
+        <div class="sec">
+          <div class="sec-title">Profil</div>
+          <!-- ✏️ Adaptez ce paragraphe à votre situation -->
+          <p class="profile">
+            Pelleteur expérimenté avec <strong>plus de 8 ans</strong> dans les
+            secteurs du recyclage et de la valorisation des déchets. Maîtrise
+            complète des engins de chantier, notamment la
+            <strong>pelle hydraulique (CACES R482 B1)</strong>, et connaissance
+            approfondie des flux de matières recyclables (ferreux, non-ferreux,
+            plastiques, papiers). Reconnu pour mon
+            <strong>leadership terrain</strong>, ma capacité à coordonner des
+            équipes jusqu'à 5 opérateurs et mon engagement permanent envers la
+            <strong>sécurité, la qualité et la performance</strong>. Déterminé à
+            évoluer vers un poste de chef d'équipe à responsabilité.
+          </p>
+        </div>
+
+        <!-- Expériences -->
+        <div class="sec">
+          <div class="sec-title">Expériences</div>
+          <div class="tl">
+            <!-- Poste 1 — le plus récent -->
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-hd">
+                <!-- ✏️ Intitulé du poste -->
+                <span class="tl-role">Chef d'Équipe – Pelleteur Senior</span>
+                <!-- ✏️ Période -->
+                <span class="tl-date">2021 → Aujourd'hui</span>
+              </div>
+              <!-- ✏️ Entreprise et ville -->
+              <div class="tl-co">Nom de l'Entreprise · Ville (XX)</div>
+              <div class="tl-desc">
+                Supervision quotidienne d'une équipe de 6 à 8 opérateurs sur le
+                site de tri. Planification des rotations de poste, suivi des
+                indicateurs de productivité et contrôle qualité du tri. Conduite
+                de la pelle hydraulique pour le déchargement, le regroupement et
+                le chargement des matières recyclables. Animation des briefings
+                sécurité et gestion des incidents terrain.
+              </div>
+              <div class="tl-tags">
+                <span class="tag">Management</span>
+                <span class="tag">Pelle R482</span>
+                <span class="tag">HSE</span>
+                <span class="tag">Reporting</span>
+                <span class="tag">Planification</span>
+              </div>
+            </div>
+
+            <!-- Poste 2 -->
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-hd">
+                <span class="tl-role">Pelleteur Confirmé</span>
+                <span class="tl-date">2016 → 2021</span>
+              </div>
+              <div class="tl-co">Nom de l'Entreprise · Ville (XX)</div>
+              <div class="tl-desc">
+                Conduite de pelle hydraulique sur chenilles et sur pneus pour le
+                traitement des déchets ferreux et non-ferreux. Participation aux
+                opérations de maintenance de premier niveau. Tutorat et
+                accompagnement de nouveaux opérateurs. Garant du respect des
+                consignes de sécurité sur le quai de tri.
+              </div>
+              <div class="tl-tags">
+                <span class="tag">Ferreux / Non-ferreux</span>
+                <span class="tag">Tutorat</span>
+                <span class="tag">Maintenance N1</span>
+              </div>
+            </div>
+
+            <!-- Poste 3 -->
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-hd">
+                <span class="tl-role">Conducteur d'Engins – Pelleteur</span>
+                <span class="tl-date">2013 → 2016</span>
+              </div>
+              <div class="tl-co">Nom de l'Entreprise · Région</div>
+              <div class="tl-desc">
+                Conduite d'engins de chantier (pelles, chargeuses) sur des
+                chantiers de déblaiement et de terrassement. Première expérience
+                en centre de collecte et découverte des procédures de gestion
+                des déchets.
+              </div>
+              <div class="tl-tags">
+                <span class="tag">Chantier BTP</span>
+                <span class="tag">Chargeuse</span>
+                <span class="tag">Terrassement</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Formations -->
+        <div class="sec">
+          <div class="sec-title">Formations</div>
+          <div class="fg">
+            <!-- ✏️ Ajustez années, intitulés et organismes -->
+            <div class="fc">
+              <div class="fc-year">2022</div>
+              <div class="fc-title">Formation Management Terrain</div>
+              <div class="fc-org">AFPA · Poitiers</div>
+            </div>
+            <div class="fc">
+              <div class="fc-year">2020</div>
+              <div class="fc-title">Renouvellement CACES R482 B1</div>
+              <div class="fc-org">Centre de formation agréé</div>
+            </div>
+            <div class="fc">
+              <div class="fc-year">2018</div>
+              <div class="fc-title">SST – Sauveteur Secouriste du Travail</div>
+              <div class="fc-org">Formation continue INRS</div>
+            </div>
+            <div class="fc">
+              <div class="fc-year">2013</div>
+              <div class="fc-title">CAP Conduite d'Engins BTP</div>
+              <div class="fc-org">Lycée professionnel · Région</div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
