@@ -123,6 +123,40 @@ body::before {
   text-transform: uppercase;
   margin-top: 8px;
 }
+@media (max-width: 767px) {
+  .title-sub {
+    letter-spacing: 3px;
+    font-size: 11px;
+    text-align: right;
+  }
+
+  .hdr-right {
+    text-align: right;
+    margin-left: auto;
+  }
+
+  .xp-row {
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 400px) {
+  .title-sub {
+    letter-spacing: 2px;
+    font-size: 11px;
+    text-align: right;
+  }
+
+  .hdr-right {
+    text-align: right;
+    margin-left: auto;
+  }
+
+  .xp-row {
+    justify-content: flex-end;
+  }
+}
+
 .xp-row {
   display: flex;
   align-items: center;
